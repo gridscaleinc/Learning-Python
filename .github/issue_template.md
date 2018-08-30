@@ -13,6 +13,8 @@
 # -*- coding: utf-8 -*-
 # What we learn here: xxxxx
 
+```
+
 ## 言語リファレンス
 https://docs.python.org/ja/3/reference/index.html
 
