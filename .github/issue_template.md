@@ -5,7 +5,10 @@
 # 要件説明
 
 # reference
+## 宿題学習ポイント(Concept)
 
+## 言語リファレンス
+https://docs.python.org/ja/3/reference/index.html
 
 # 宿題の提出について
 githubに宿題をコミットする際、必ず下記の様なフォルダ構成にしたがって欲しいです。
