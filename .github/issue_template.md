@@ -7,6 +7,12 @@
 # reference
 ## 宿題学習ポイント(Concept)
 
+## 参考実装
+``` Python:Less00x.py
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# What we learn here: xxxxx
+
 ## 言語リファレンス
 https://docs.python.org/ja/3/reference/index.html
 
