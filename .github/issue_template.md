@@ -23,7 +23,6 @@ https://docs.python.org/ja/3/reference/index.html
 githubに宿題をコミットする際、必ず下記の様なフォルダ構成にしたがって欲しいです。 
 宿題を完成させたエビデンスファイルも合わせて出してください。できれば。  
 ```
-　　　--src  
      ---- 「ご自分のgithubid]  
          ---   less001  
                -- file001.py  
