@@ -1,4 +1,5 @@
 # title
+&copy; 2018 Gridscale Inc.  http://www.gridscale.com
 
 # 前振り
 
