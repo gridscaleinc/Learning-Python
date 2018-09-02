@@ -1,0 +1,35 @@
+id: 4564295264
+type: <class 'int'>
+str: 100
+is function?: False
+
+id: 4566394448
+type: <class 'str'>
+str: abc
+is function?: False
+
+id: 4572313288
+type: <class 'list'>
+str: ['a', 'b', 'c']
+is function?: False
+
+id: 4566453416
+type: <class 'dict'>
+str: {'a': 1, 'b': 2, 'c': 3}
+is function?: False
+
+id: 4566478408
+type: <class 'set'>
+str: {1, 2, 'A'}
+is function?: False
+
+id: 4565776776
+type: <class 'method'>
+str: <bound method Magnifier.observe of <__main__.Magnifier object at 0x110871f28>>
+is function?: True
+
+id: 4572258256
+type: <class '__main__.Python'>
+str: <__main__.Python object at 0x110871fd0>
+is function?: False
+
