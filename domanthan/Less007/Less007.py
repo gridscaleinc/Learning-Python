@@ -9,12 +9,11 @@ class MyLife(object):
         self.history.append(mark)
 
     def show(self):
+        print("私の人生の履歴:")
+        print("---------------------------------------------------------------------------")
         for mark in self.history:
-            dateInfo = mark[0]
-            stage = mark[1]
-            place = mark[2]
-            latitude = mark[3]
-            longitude = mark[4]
+            ## Tupleはこの様にアサインできるのです。。。。
+            dateInfo, stage, place, latitude, longitude = mark
 
             print(dateInfo, "   ", stage, "   ", place, "     地理位置: (", latitude, ",", longitude, ")")
 
