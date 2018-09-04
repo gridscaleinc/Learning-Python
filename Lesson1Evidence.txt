@@ -1,0 +1,12 @@
+ターミナルの出力
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\xli\Documents\surasura-python>cd c:\Users\xli\Documents\surasura-python && cmd /C "set "PYTHONIOENCODING=UTF-8" && set "PYTHONUNBUFFERED=1" && python C:\Users\xli\.vscode\extensions\ms-python.python-2018.6.0\pythonFiles\PythonTools\visualstudio_py_launcher.py c:\Users\xli\Documents\surasura-python 49832 34806ad9-833a-4524-8cd6-18ca4aa74f14 RedirectOutput,RedirectOutput c:\Users\xli\Documents\surasura-python\.vscode\Teacher_Huang\Lesson1.py "
+Hello Python world!
+
+C:\Users\xli\Documents\surasura-python>
+
+
+デバッグコンソールの出力
+Hello Python world!
