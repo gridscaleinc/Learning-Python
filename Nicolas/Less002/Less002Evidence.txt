@@ -12,3 +12,29 @@ C:\Users\xli\Documents\surasura-python>cd c:\Users\xli\Documents\surasura-python
 Import things need to be repeated three times.
 Show me the money！
 Show me the money！
+
+
+--------------------------------
+
+
+>>>0906
+Import things need to be repeated three times.
+1
+Show me the money！
+2
+Show me the money！
+------------------
+0
+Show me the money！
+1
+Show me the money！
+2
+Show me the money！
+------------------
+0
+Show me the money！
+1
+Show me the money！
+2
+Show me the money！
+PS C:\Users\xli\Documents\GitHub\Learning-Python\Nicolas\Less002>
