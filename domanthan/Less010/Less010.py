@@ -20,19 +20,22 @@ class ClassRoom:
         ## Where is B3?
         positionOfB3 = allmembers.index("B3")
         positionOfA8 = allmembers.index("A8")
-        positionOfC3 = allmembers.index("C3")
 
-        if (positionOfB3 % 8 >= 0 and  positionOfB3 % 8 < 7):
-            ## B3の後ろにA8を置く
-            suceedor = allmembers[positionOfB3 + 1]
-            a8 = allmembers[positionOfA8]
-            allmembers[positionOfB3 + 1], allmembers[positionOfA8] = a8, suceedor
-        else :
+        if positionOfB3 % 8 == 0:
             ## B3の前にA8を置く
+            allmembers.remove("A8")
+            allmembers.insert(allmembers.index("B3"), "A8")
+        elif positionOfB3 % 8 > 0 and  positionOfB3 % 8 < 7:
+            ## B3の後ろにA8を置く
+            allmembers.remove("A8")
+            allmembers.insert(allmembers.index("B3") + 1, "A8")
+        else :
+            ## B3の前人とA8を入れ替え
             prefer = allmembers[positionOfB3 - 1]
             a8 = allmembers[positionOfA8]
-            allmembers[positionOfB3 + 1], allmembers[positionOfA8] = a8, prefer
+            allmembers[positionOfB3 - 1], allmembers[positionOfA8] = a8, prefer
 
+        positionOfC3 = allmembers.index("C3")
         if positionOfB3 > 15:
             first = allmembers[0]
             c3 = allmembers[positionOfC3]
