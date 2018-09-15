@@ -3,10 +3,10 @@
 from time import sleep
 
 def fibonacci():
-    first,next = 0,1
+    an, anext = 0, 1
     while(True):
-        yield first
-        first, next = next , first + next
+        yield an
+        an, anext = anext, an + anext
 
 print ("Please print Ctrl+c to break!")
 for fib in fibonacci():
