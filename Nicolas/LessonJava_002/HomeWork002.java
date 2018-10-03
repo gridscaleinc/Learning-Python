@@ -1,32 +1,46 @@
 /**
- * 関数を作って1+2+........+n=？
- * しかも再帰を利用すること。
+ * クラス名：HomeWork002
+ * 機能説明：
+ * 　①関数を作って1+2+........+n=？
+ * 　②しかも再帰を利用すること。
  */
 
 package iHomeWork_Huang;
 
 public class  HomeWork002 {
+	private static int num;
+
 	public static void main(String arg[]) {
 
 		//加算の上限値
-		int num = 10;
-		//int num = 100;
-		//int num = 1000;
+		 num = 10;
+		// num = 100;
+		// num = 1000;
 
-
-		//結果出力
+		//連続加算の出力
 		String printNum;
 		printNum = "1+2+...+";
-		System.out.print(printNum + num + " = " + addSeq(num));
+		//System.out.println(printNum + num + " = " + addSeq(num));
+		//System.out.println();
+		System.out.println(printNum + num + " = " + fib(num));
+
 	}
 
+	//連続加算と戻り値。
 	private static int addSeq(int n) {
-		//変数初期化
 		int plusResult = 0;
-
-		//連続加算と戻り値。
-		for (int i =0; i <= n; i++)
+		for (int i = 0; i <= n; i++) {
 			plusResult += i;
+		}
 		return plusResult;
 	}
+
+	//再帰化
+	private static int fib(int m) {
+		int fibResult = 0;
+		fibResult = addSeq(num - 1) + num;
+		return fibResult;
+	}
+
+
 }
