@@ -12,34 +12,30 @@ public class  HomeWork002 {
 
 	public static void main(String arg[]) {
 
-		//加算の上限値
+		//加算値
 		 num = 10;
 		// num = 100;
 		// num = 1000;
 
-		//連続加算の出力
+		//結果出力
+		int sum = fib(num);
 		String printNum;
 		printNum = "1+2+...+";
-		//System.out.println(printNum + num + " = " + addSeq(num));
-		//System.out.println();
-		System.out.println(printNum + num + " = " + fib(num));
-
+		System.out.println(printNum + num + " = " + sum);
 	}
 
-	//連続加算と戻り値。
-	private static int addSeq(int n) {
-		int plusResult = 0;
-		for (int i = 0; i <= n; i++) {
-			plusResult += i;
-		}
-		return plusResult;
-	}
 
 	//再帰化
 	private static int fib(int m) {
-		int fibResult = 0;
-		fibResult = addSeq(num - 1) + num;
-		return fibResult;
+
+        if (m == 0) {
+            return 0;
+        }
+        if (m == 1) {
+            return 1;
+        }
+
+		return fib(m - 1) + m;
 	}
 
 
