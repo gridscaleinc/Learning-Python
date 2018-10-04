@@ -13,20 +13,27 @@ public class  HomeWork002 {
 	public static void main(String arg[]) {
 
 		//加算値
-		 num = 10;
-		// num = 100;
-		// num = 1000;
+		//num = -1;
+		//num = 10;
+		 num = 100;
 
 		//結果出力
 		int sum = fib(num);
+		//fib(-1);
+
 		String printNum;
 		printNum = "1+2+...+";
 		System.out.println(printNum + num + " = " + sum);
+		fib(-1);
 	}
 
 
 	//再帰化
 	private static int fib(int m) {
+
+		if (m < 0) {
+			throw new RuntimeException();
+		}
 
         if (m == 0) {
             return 0;

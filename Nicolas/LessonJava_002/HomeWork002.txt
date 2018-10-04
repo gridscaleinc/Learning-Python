@@ -1,3 +1,4 @@
-1+2+...+10 = 55
 1+2+...+100 = 5050
-1+2+...+1000 = 500500
+Exception in thread "main" java.lang.RuntimeException
+	at iHomeWork_Huang.HomeWork002.fib(HomeWork002.java:35)
+	at iHomeWork_Huang.HomeWork002.main(HomeWork002.java:27)
