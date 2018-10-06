@@ -9,7 +9,7 @@ class Circle:
         self.radius = radius
 
     def circumLength(self):
-        return 3.14 * 2 * self.radius
+        return round(3.14 * 2 * self.radius, 2)
 
 class Planet:
     revolutionPeriod = 0
@@ -43,5 +43,6 @@ class Globe(Circle, Planet):
 
 globe = Globe()
 
+print("地球は一年間 : {0} kmを太陽の周りで回ってます。".format(globe.circumLength()))
 print("地球の公転速度は : {0} km/s".format(globe.revolutionSpeed()))
 print("地球の自伝速度は : {0} km/s".format(globe.rotationSpeed()))
