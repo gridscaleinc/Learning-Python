@@ -30,15 +30,21 @@ public class HomeWork005 {
 		Long lastNum = m_Long + (long)Math.pow(10.0,mLength-1 );
 		System.out.println("最高位に1を補充 : " + lastNum);
 
+		/*
 		//int型の試し
 		int l_Int = 1234567;
 		l_Int = l_Int >> 4;
 		System.out.println("1234567[int]の右４シフト： " + l_Int);
-
 		double lLength = String.valueOf(l_Int).length();
 		Long l_lastNum = l_Int + (long)Math.pow(10.0,lLength-1 );
 		System.out.println("最高位に1を補充 : " + l_lastNum);
+		 */
 
+		System.out.println("**********************************");
+		long abc = 1234567l;
+		System.out.println(abc);
+		abc = abc | 0x8000000000000000l;
+		System.out.print("Long型 : " + Long.toBinaryString(abc));
 
 	}
 
