@@ -21,8 +21,12 @@ public class HomeWork005 {
 
 		//1234567をlongとして、右へ4bit shift、同時に最高位に1を補充することで、どういう整数になるかを示す。
 		long m = 1234567;
-		System.out.println("1234567の右４シフト： " + (m >> 4));
+		m = m >> 4;
+		System.out.println("1234567の右４シフト： " + m);
 
+		double mLength = String.valueOf(m).length();
+		Long lastNum = m + (long)Math.pow(10.0,mLength-1 );
+		System.out.println("最高位に1を補充 : " + lastNum);
 
 	}
 
