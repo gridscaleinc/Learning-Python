@@ -19,14 +19,26 @@ public class HomeWork005 {
 		System.out.println("1234567の8進数表現 ： " + Integer.toOctalString(i));
 		System.out.println("1234567の16進数表現： " + Integer.toHexString(i));
 
-		//1234567をlongとして、右へ4bit shift、同時に最高位に1を補充することで、どういう整数になるかを示す。
-		long m = 1234567;
-		m = m >> 4;
-		System.out.println("1234567の右４シフト： " + m);
+		System.out.println("**********************************");
 
-		double mLength = String.valueOf(m).length();
-		Long lastNum = m + (long)Math.pow(10.0,mLength-1 );
+		//1234567をlongとして、右へ4bit shift、同時に最高位に1を補充することで、どういう整数になるかを示す。
+		long m_Long = 1234567;
+		m_Long = m_Long >> 4;
+		System.out.println("1234567[long]の右４シフト： " + m_Long);
+
+		double mLength = String.valueOf(m_Long).length();
+		Long lastNum = m_Long + (long)Math.pow(10.0,mLength-1 );
 		System.out.println("最高位に1を補充 : " + lastNum);
+
+		//int型の試し
+		int l_Int = 1234567;
+		l_Int = l_Int >> 4;
+		System.out.println("1234567[int]の右４シフト： " + l_Int);
+
+		double lLength = String.valueOf(l_Int).length();
+		Long l_lastNum = l_Int + (long)Math.pow(10.0,lLength-1 );
+		System.out.println("最高位に1を補充 : " + l_lastNum);
+
 
 	}
 
