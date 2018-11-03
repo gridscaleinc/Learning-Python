@@ -1,18 +1,17 @@
-package iHomeWork_Huang;
+package HomeWork007;
 
-//実行Mainクラス
+
+//Greetingというクラスを作って、mainメソッドに日本人と中国人のインスタンスを作って、お互いに挨拶させて下さい。
 public class Greeting {
 
-  public static void main(String[] args) {
+	public static void main(String...args) {
 
-	  Chinese CN_Hello = new Chinese();
-	  Japanese JP_Hello = new Japanese();
+		Chinese helloCN = new Chinese();
+		helloCN.greeting();
 
-	  CN_Hello.greeting();
-	  JP_Hello.greeting();
+		Japanese helloJP = new Japanese();
+		helloJP.greeting();
 
-
-
-  }
+	}
 
 }
