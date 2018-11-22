@@ -1,0 +1,6 @@
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	型 Class<AnnotationTest> のメソッド getAnnotation(Class<A>) は引数 (Class<AnnotationTest>) に適用できません
+
+	at HomeWork008.AnnotationTest.Validator(AnnotationTest.java:19)
+	at HomeWork008.AnnotationTest.main(AnnotationTest.java:10)
